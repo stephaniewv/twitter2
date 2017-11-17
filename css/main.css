@@ -1,0 +1,171 @@
+body{
+
+  font-family: 'Cabin', sans-serif;
+  background-color: #e6ecf0;
+  margin: 0;
+  padding: 0;
+  width: 100%
+}
+
+header .nav2 {
+  position: fixed;
+  margin:0;
+  padding: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  background-color: white;
+  z-index: 1000;
+}
+
+.container-menu {
+  position: relative;
+  margin: auto;
+  left: 50%;
+  display: inline-block;
+}
+
+
+/*.container-menu .icon-bird {
+  font-size: 24px;
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-weight: bold;
+  width: 24px;
+  height: 21px;
+  display: inline-block;
+}*/
+
+#ulnav {
+  position: absolute;
+}
+
+ul li {
+  display: inline-block;
+  height: 26px;
+  margin:11px 0 0 -26px;
+  vertical-align: top;
+  margin-left: 13px;
+  font-weight: 800;
+  padding: 10px;
+}
+
+ul li a {
+  color: #66757f;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+ul li a span{
+  margin-left: 5px;
+}
+
+.extras {
+  position: absolute;
+  display: inline-block;
+  bottom: 15px;
+  left: 60%;
+}
+
+.navigation-right {
+  position: relative;
+  left: 100%;
+  bottom: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.img-circle {
+  position: absolute;
+  top: 5px;
+}
+
+#search{
+  background-color: #f5f8fa;
+  border-radius: 21px;
+  box-sizing: border-box;
+  color: #14171a;
+  height: 30px;
+}
+
+.search-input {
+  border: none;
+  background: none;
+  position: relative;
+  left: 10px;
+  top: 4px;
+}
+
+.icon-search {
+  color: #66757f;
+  position: relative;
+  top: 6px;
+  right: 8px;
+}
+
+#global-button-twitter {
+  position: relative;
+  font-weight: 600;
+  left: 30px;
+  bottom: 16px;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 35px;
+  color: white;
+  background-color: #D02B55;
+  border-color: #D02B55;
+}
+
+/*Comienza secciones*/
+
+#page-container {
+  outline: 1px solid red;
+  padding: 56px 14px 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.dashboard-left{
+  display: inline-block;
+  margin-top: 15px;
+}
+
+
+.contenedor-text {
+  background-color: #FAE9EE;
+  display: inline-block;
+  top: 75px;
+  padding: 30px 8px 8px 20px;
+  position: absolute;
+  left: 320px;
+  top: 70px;
+}
+
+.textarea-twitter{
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+  left: 65px;
+  border-color: #D02B55;
+  color: #D02B55;
+  box-sizing: border-box;
+}
+
+#save {
+  display: block;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 35px;
+  color: white;
+  background-color: #D02B55;
+  margin-left: 75%;
+
+}
